@@ -24,6 +24,7 @@ export default class App extends React.Component {
             </tr>
           </tbody>
         </table>
+        <h1>Home Page</h1>
         {this.props.children}
       </div>
     )};

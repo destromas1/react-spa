@@ -10,11 +10,11 @@ import Error from './App/Components/404.jsx';
 
 ReactDOM.render(
   <Router history={hashHistory}>
-        <Route path="/" component={App}>
-            <Route path="/profile" component={Profile}/>
-            <Route path="/contact" component={Contact}/>
-            <Route path="*" component={Error}/>
-        </Route>
-    </Router>
+    <Route path="/" component={App}>
+        <Route path="/profile" component={Profile}/>
+        <Route path="/contact" component={Contact}/>
+        <Route path="*" component={Error}/>
+    </Route>
+  </Router>
   , document.getElementById('app')
 );
